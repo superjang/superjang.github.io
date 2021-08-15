@@ -686,6 +686,10 @@ blockquote:after {
 	margin-bottom: 10px;
 	}
 
+.view--root #container--header .custom-navbar{
+	right: -1.5rem;
+}
+
 	
 	.view--root #box--category .text--title-category,
 	.view--root #box--tag .text--title-tag{
