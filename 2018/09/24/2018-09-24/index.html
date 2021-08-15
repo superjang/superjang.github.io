@@ -1,38 +1,59 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <!-- Head tag -->
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
 
   <!-- Title -->
   
   <title>2018 .9 .24 - Hexo</title>
 
   <!--Favicon-->
-  <link rel="icon" href="favicon/favicon.ico">
+  <link rel="icon" href="favicon/favicon.ico" />
 
   <!--Description-->
   
-      <meta name="description" content="황령산에 올라가면 광안리부터 서면까지 부산 야경을 한번에 다 볼 수 있다.남산타워 올라가도 이런 뷰 볼 수는 있는데, 느낌이 많이 다르다.역시 부산이 최고 👍
+  <meta
+    name="description"
+    content="황령산에 올라가면 광안리부터 서면까지 부산 야경을 한번에 다 볼 수 있다.남산타워 올라가도 이런 뷰 볼 수는 있는데, 느낌이 많이 다르다.역시 부산이 최고 👍
 
 
- 기록 끝.">
+ 기록 끝."
+  />
   
 
   <!--Author-->
   
-      <meta name="author" content="John Doe">
+  <meta name="author" content="John Doe" />
   
 
   <!-- Pure CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300,800" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300,800"
+    rel="stylesheet"
+  />
 
   <!-- Custom CSS -->
   
 <link rel="stylesheet" href="/photo-app/css/styles.css">
+
+
+  <!-- Custom JS -->
+  
+<script src="/photo-app/js/app.js"></script>
 
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -48,10 +69,11 @@
 
 
   <body>
-    <div class="container-fluid navbar-container m-sm-5">
+    <div id="view--post" class="view--root container-fluid m-sm-5">
       <!-- Header -->
-      <nav class="navbar navbar-toggleable-sm navbar-light px-1 py-3 my-3 mb-sm-5">
-  <a class="navbar-brand ml-2" href="/photo-app/">
+      <div id="container--header">
+        <nav id="box--navi" class="navbar navbar-toggleable-sm navbar-light">
+  <a class="link--title navbar-brand ml-2" href="/photo-app/">
     일상의기록
     
   </a>
@@ -59,7 +81,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   
-  <div class="collapse navbar-collapse text-center" id="navbarCollapse">
+  <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav ml-auto my-auto">
       
         <li class="nav-item">
@@ -99,32 +121,35 @@
         </li>
       
     </ul>
-    <hr class="hidden-md-up" />
   </div>
 </nav>
- 
-      <div class="row">
 
-<div class="col-12 mb-4">
+      </div>
+
+      <!-- Contents -->
+      <div id="container--contents" class="row">
+        
+
+<div class="box--post--thumb">
   <img class="img-fluid project-img" src="./20180924_202844.jpg" alt="2018 .9 .24">
 </div>
 
-<div class="col-lg-4 col-12 pt-3 px-4 pr-lg-5">
-  <div class="box--contents-header">
-    <h1>2018 .9 .24</h1>
-    
 
-<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a>, <a class="text--category icon category-travel" href="/photo-app/categories/daily/travel/">travel</a>
-<br/>
-    
+<div class="box--post--header">
+  <h1>2018 .9 .24</h1>
+  <div class="box--cateogry--list">
+
+
+<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a> <a class="text--category icon category-travel" href="/photo-app/categories/daily/travel/">travel</a></div>
+  <div class="box--tag--list">
 
 
 <a class="text--tag icon tag-Golf GTD 7th" href="/photo-app/tags/Golf-GTD-7th/">#Golf GTD 7th</a> <a class="text--tag icon tag-야간드라이브" href="/photo-app/tags/야간드라이브/">#야간드라이브</a> <a class="text--tag icon tag-황령산" href="/photo-app/tags/황령산/">#황령산</a>
 
-
-  </div>
 </div>
-<div class="col-lg-8 col-12 pt-lg-3 mb-4 pl-lg-5 px-lg-0 px-4 portfolio-content">
+</div>
+
+<div class="col-12 box--post--content portfolio-content">
   <!-- ![](./20180924_202844.jpg)
 <p class="media_desc">광안리 방향, 멀리 광안대교가 보인다.</p>
 
@@ -167,15 +192,18 @@
  <p class="text--post-end">기록 끝.</p>
 </div>
 
-</div>
+      </div>
+
+      <!-- Pagination -->
       
+
+      <!-- Top Button -->
+      <a href="#" class="button--top">맨위로</a>
     </div>
 
     <!-- After footer scripts -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-<a href="#" class="button--top">맨위로</a>
   </body>
 </html>

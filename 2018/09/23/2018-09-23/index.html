@@ -1,36 +1,57 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <!-- Head tag -->
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
 
   <!-- Title -->
   
   <title>2018 .9 .23 - Hexo</title>
 
   <!--Favicon-->
-  <link rel="icon" href="favicon/favicon.ico">
+  <link rel="icon" href="favicon/favicon.ico" />
 
   <!--Description-->
   
-      <meta name="description" content="오늘은 기변을 하러 가는 날, 정말 많은 고민 끝에 기변을 결심했다.
-애초에 6세대 GTD는 20만 키로를 생각하고 산 차였다. 하지만 사람 마음이 그렇지가 않은게 6세대를 타다보니 ‘6세대가 이렇게 재밌는데 7세대는 얼마나 재밌을까?’ 하는 궁금증이 계속해서 해소가 ">
+  <meta
+    name="description"
+    content="오늘은 기변을 하러 가는 날, 정말 많은 고민 끝에 기변을 결심했다.
+애초에 6세대 GTD는 20만 키로를 생각하고 산 차였다. 하지만 사람 마음이 그렇지가 않은게 6세대를 타다보니 ‘6세대가 이렇게 재밌는데 7세대는 얼마나 재밌을까?’ 하는 궁금증이 계속해서 해소가 "
+  />
   
 
   <!--Author-->
   
-      <meta name="author" content="John Doe">
+  <meta name="author" content="John Doe" />
   
 
   <!-- Pure CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300,800" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300,800"
+    rel="stylesheet"
+  />
 
   <!-- Custom CSS -->
   
 <link rel="stylesheet" href="/photo-app/css/styles.css">
+
+
+  <!-- Custom JS -->
+  
+<script src="/photo-app/js/app.js"></script>
 
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -46,10 +67,11 @@
 
 
   <body>
-    <div class="container-fluid navbar-container m-sm-5">
+    <div id="view--post" class="view--root container-fluid m-sm-5">
       <!-- Header -->
-      <nav class="navbar navbar-toggleable-sm navbar-light px-1 py-3 my-3 mb-sm-5">
-  <a class="navbar-brand ml-2" href="/photo-app/">
+      <div id="container--header">
+        <nav id="box--navi" class="navbar navbar-toggleable-sm navbar-light">
+  <a class="link--title navbar-brand ml-2" href="/photo-app/">
     일상의기록
     
   </a>
@@ -57,7 +79,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   
-  <div class="collapse navbar-collapse text-center" id="navbarCollapse">
+  <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav ml-auto my-auto">
       
         <li class="nav-item">
@@ -97,28 +119,31 @@
         </li>
       
     </ul>
-    <hr class="hidden-md-up" />
   </div>
 </nav>
- 
-      <div class="row">
 
-<div class="col-lg-4 col-12 pt-3 px-4 pr-lg-5">
-  <div class="box--contents-header">
-    <h1>2018 .9 .23</h1>
-    
+      </div>
 
-<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a>
-<br/>
-    
+      <!-- Contents -->
+      <div id="container--contents" class="row">
+        
+
+
+<div class="box--post--header">
+  <h1>2018 .9 .23</h1>
+  <div class="box--cateogry--list">
+
+
+<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a></div>
+  <div class="box--tag--list">
 
 
 <a class="text--tag icon tag-Golf GTD 7th" href="/photo-app/tags/Golf-GTD-7th/">#Golf GTD 7th</a> <a class="text--tag icon tag-기변" href="/photo-app/tags/기변/">#기변</a>
 
-
-  </div>
 </div>
-<div class="col-lg-8 col-12 pt-lg-3 mb-4 pl-lg-5 px-lg-0 px-4 portfolio-content">
+</div>
+
+<div class="col-12 box--post--content portfolio-content">
   <p>오늘은 기변을 하러 가는 날, 정말 많은 고민 끝에 기변을 결심했다.</p>
 <p>애초에 6세대 GTD는 20만 키로를 생각하고 산 차였다. 하지만 사람 마음이 그렇지가 않은게 6세대를 타다보니 ‘6세대가 이렇게 재밌는데 7세대는 얼마나 재밌을까?’ 하는 궁금증이 계속해서 해소가 되지 않았다. 아이러니하게도 6세대가 너무 재미있는 차고, 잘 만든 차라서 이런 고민을 생각보다 빨리 하게된게 아닐까싶다. </p>
 <p>굳이 불만을 꼽자면 실내 인테리어에 대한 아쉬움 정도, 외관은 여전히 6세대가 내 취향에 맞았지만 여러가지 고민 끝에 9월 17일, 약 8개월 가량 애지중지 타던 골프 6세대 GTD를 팔았다. </p>
@@ -150,15 +175,18 @@
  <p class="text--post-end">기록 끝.</p>
 </div>
 
-</div>
+      </div>
+
+      <!-- Pagination -->
       
+
+      <!-- Top Button -->
+      <a href="#" class="button--top">맨위로</a>
     </div>
 
     <!-- After footer scripts -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-<a href="#" class="button--top">맨위로</a>
   </body>
 </html>

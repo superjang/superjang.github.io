@@ -1,33 +1,51 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <!-- Head tag -->
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
 
   <!-- Title -->
   
   <title>page - Hexo</title>
 
   <!--Favicon-->
-  <link rel="icon" href="favicon/favicon.ico">
+  <link rel="icon" href="favicon/favicon.ico" />
 
   <!--Description-->
   
 
   <!--Author-->
   
-      <meta name="author" content="John Doe">
+  <meta name="author" content="John Doe" />
   
 
   <!-- Pure CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300,800" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300,800"
+    rel="stylesheet"
+  />
 
   <!-- Custom CSS -->
   
 <link rel="stylesheet" href="/photo-app/css/styles.css">
+
+
+  <!-- Custom JS -->
+  
+<script src="/photo-app/js/app.js"></script>
 
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -43,10 +61,11 @@
 
 
   <body>
-    <div class="container-fluid navbar-container m-sm-5">
+    <div id="view--archive" class="view--root container-fluid m-sm-5">
       <!-- Header -->
-      <nav class="navbar navbar-toggleable-sm navbar-light px-1 py-3 my-3 mb-sm-5">
-  <a class="navbar-brand ml-2" href="/photo-app/">
+      <div id="container--header">
+        <nav id="box--navi" class="navbar navbar-toggleable-sm navbar-light">
+  <a class="link--title navbar-brand ml-2" href="/photo-app/">
     일상의기록
     
   </a>
@@ -54,7 +73,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   
-  <div class="collapse navbar-collapse text-center" id="navbarCollapse">
+  <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav ml-auto my-auto">
       
         <li class="nav-item">
@@ -94,167 +113,23 @@
         </li>
       
     </ul>
-    <hr class="hidden-md-up" />
   </div>
 </nav>
- 
-      <h3 class="text--index-title">
-        Welcome to Novela, the simplest way to start publishing with Gatsby.
-      </h3>
 
-      
-      <div class="row"> <div class="col-md-4 col-12 mb-4 box--post--list">
+      </div>
+
+      <!-- Contents -->
+      <div id="container--contents" class="row">
+         
+    <div class="col-md-3 col-12 box--post--list">
   <!-- <div class="hovereffect"> -->
   <div class="box--photo-card">
     <div class="box--link--photo">
-      <a class="link--photo" href="/photo-app/2018/10/17/2018-10-17/">
+      <a class="link--photo" href="/photo-app/2018/09/25/2018-09-25/">
         <span
           class="image--thumb"
           style="
-            background-image: url('/photo-app/2018/10/17/2018-10-17/./20181017_214946.jpg');
-          "
-        >
-        </span>
-        <!-- <span class="box--photo-card-info">
-          <span class="box--photo-card-title">
-            
-            <span class="text--photo-card-date"> dd </span>
-            
-            <span class="post_tag">
-              <i class="fa fa-tag"></i>
-              
-              <span class="text--photo-card-date"> 현대포니 </span>
-               
-            </span>
-            
-            
-
-<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a>
- 
-
-
-<a class="text--tag icon tag-현대포니" href="/photo-app/tags/현대포니/">#현대포니</a>
-
-
-          </span>
-        </span> -->
-      </a>
-      <!-- <div class="box--photo--info">
-        
-
-<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a>
- 
-
-
-<a class="text--tag icon tag-현대포니" href="/photo-app/tags/현대포니/">#현대포니</a>
-
-
-      </div> -->
-    </div>
-
-    <div class="box--post--info">
-      <p class="post--title"></p>
-      <p class="post--summary">장보러 갔다 현대 포니 1:38 미니어처 발견.퀄...</p>
-
-      <!-- <div class="box--item-attributes">
-        
-
-<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a>
-
-        
-
-
-<a class="text--tag icon tag-현대포니" href="/photo-app/tags/현대포니/">#현대포니</a>
-
-
-      </div> -->
-      <p class="post--date">2018-10-17</p>
-    </div>
-  </div>
-</div>
-  <div class="col-md-4 col-12 mb-4 box--post--list">
-  <!-- <div class="hovereffect"> -->
-  <div class="box--photo-card">
-    <div class="box--link--photo">
-      <a class="link--photo" href="/photo-app/2018/09/27/2018-09-27/">
-        <span
-          class="image--thumb"
-          style="
-            background-image: url('/photo-app/2018/09/27/2018-09-27/./20180926_185004.jpg');
-          "
-        >
-        </span>
-        <!-- <span class="box--photo-card-info">
-          <span class="box--photo-card-title">
-            
-            <span class="text--photo-card-date"> dd </span>
-            
-            <span class="post_tag">
-              <i class="fa fa-tag"></i>
-              
-              <span class="text--photo-card-date"> 한강 </span>
-              
-              <i class="fas fa-angle-right"></i>
-               
-              <span class="text--photo-card-date"> 힐링 </span>
-               
-            </span>
-            
-            
-
-<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a>
- 
-
-
-<a class="text--tag icon tag-한강" href="/photo-app/tags/한강/">#한강</a> <a class="text--tag icon tag-힐링" href="/photo-app/tags/힐링/">#힐링</a>
-
-
-          </span>
-        </span> -->
-      </a>
-      <!-- <div class="box--photo--info">
-        
-
-<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a>
- 
-
-
-<a class="text--tag icon tag-한강" href="/photo-app/tags/한강/">#한강</a> <a class="text--tag icon tag-힐링" href="/photo-app/tags/힐링/">#힐링</a>
-
-
-      </div> -->
-    </div>
-
-    <div class="box--post--info">
-      <p class="post--title"></p>
-      <p class="post--summary">긴 연휴가 끝나고 오랜만에 출근.힘든 하루였다.
-...</p>
-
-      <!-- <div class="box--item-attributes">
-        
-
-<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a>
-
-        
-
-
-<a class="text--tag icon tag-한강" href="/photo-app/tags/한강/">#한강</a> <a class="text--tag icon tag-힐링" href="/photo-app/tags/힐링/">#힐링</a>
-
-
-      </div> -->
-      <p class="post--date">2018-09-27</p>
-    </div>
-  </div>
-</div>
-  <div class="col-md-4 col-12 mb-4 box--post--list">
-  <!-- <div class="hovereffect"> -->
-  <div class="box--photo-card">
-    <div class="box--link--photo">
-      <a class="link--photo" href="/photo-app/2018/09/26/2018-09-26/">
-        <span
-          class="image--thumb"
-          style="
-            background-image: url('/photo-app/2018/09/26/2018-09-26/./20180926_124958.jpg');
+            background-image: url('/photo-app/2018/09/25/2018-09-25/./20180925_095741.jpg');
           "
         >
         </span>
@@ -270,25 +145,17 @@
               
               <i class="fas fa-angle-right"></i>
                
-              <span class="text--photo-card-date"> 가을 </span>
-              
-              <i class="fas fa-angle-right"></i>
-               
-              <span class="text--photo-card-date"> 남양주 </span>
-              
-              <i class="fas fa-angle-right"></i>
-               
-              <span class="text--photo-card-date"> 드라이브 </span>
+              <span class="text--photo-card-date"> 주유 </span>
                
             </span>
             
             
 
-<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a>, <a class="text--category icon category-travel" href="/photo-app/categories/daily/travel/">travel</a>
- 
+
+<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a> <a class="text--category icon category-travel" href="/photo-app/categories/daily/travel/">travel</a> 
 
 
-<a class="text--tag icon tag-Golf GTD 7th" href="/photo-app/tags/Golf-GTD-7th/">#Golf GTD 7th</a> <a class="text--tag icon tag-가을" href="/photo-app/tags/가을/">#가을</a> <a class="text--tag icon tag-남양주" href="/photo-app/tags/남양주/">#남양주</a> <a class="text--tag icon tag-드라이브" href="/photo-app/tags/드라이브/">#드라이브</a>
+<a class="text--tag icon tag-Golf GTD 7th" href="/photo-app/tags/Golf-GTD-7th/">#Golf GTD 7th</a> <a class="text--tag icon tag-주유" href="/photo-app/tags/주유/">#주유</a>
 
 
           </span>
@@ -297,11 +164,11 @@
       <!-- <div class="box--photo--info">
         
 
-<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a>, <a class="text--category icon category-travel" href="/photo-app/categories/daily/travel/">travel</a>
- 
+
+<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a> <a class="text--category icon category-travel" href="/photo-app/categories/daily/travel/">travel</a> 
 
 
-<a class="text--tag icon tag-Golf GTD 7th" href="/photo-app/tags/Golf-GTD-7th/">#Golf GTD 7th</a> <a class="text--tag icon tag-가을" href="/photo-app/tags/가을/">#가을</a> <a class="text--tag icon tag-남양주" href="/photo-app/tags/남양주/">#남양주</a> <a class="text--tag icon tag-드라이브" href="/photo-app/tags/드라이브/">#드라이브</a>
+<a class="text--tag icon tag-Golf GTD 7th" href="/photo-app/tags/Golf-GTD-7th/">#Golf GTD 7th</a> <a class="text--tag icon tag-주유" href="/photo-app/tags/주유/">#주유</a>
 
 
       </div> -->
@@ -309,38 +176,220 @@
 
     <div class="box--post--info">
       <p class="post--title"></p>
-      <p class="post--summary">연휴 마지막 날, 이렇게 좋은 날씨에 집에만 있을...</p>
-
-      <!-- <div class="box--item-attributes">
-        
-
-<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a>, <a class="text--category icon category-travel" href="/photo-app/categories/daily/travel/">travel</a>
-
-        
-
-
-<a class="text--tag icon tag-Golf GTD 7th" href="/photo-app/tags/Golf-GTD-7th/">#Golf GTD 7th</a> <a class="text--tag icon tag-가을" href="/photo-app/tags/가을/">#가을</a> <a class="text--tag icon tag-남양주" href="/photo-app/tags/남양주/">#남양주</a> <a class="text--tag icon tag-드라이브" href="/photo-app/tags/드라이브/">#드라이브</a>
-
-
-      </div> -->
-      <p class="post--date">2018-09-26</p>
+      <p class="post--summary">내려올 때는 친구차를 타고 왔는데 올라갈 때는 이...</p>
+      <p class="post--date">2018-09-25</p>
     </div>
   </div>
 </div>
  
+ 
+    <div class="col-md-3 col-12 box--post--list">
+  <!-- <div class="hovereffect"> -->
+  <div class="box--photo-card">
+    <div class="box--link--photo">
+      <a class="link--photo" href="/photo-app/2018/09/24/2018-09-24/">
+        <span
+          class="image--thumb"
+          style="
+            background-image: url('/photo-app/2018/09/24/2018-09-24/./20180924_202844.jpg');
+          "
+        >
+        </span>
+        <!-- <span class="box--photo-card-info">
+          <span class="box--photo-card-title">
+            
+            <span class="text--photo-card-date"> dd </span>
+            
+            <span class="post_tag">
+              <i class="fa fa-tag"></i>
+              
+              <span class="text--photo-card-date"> Golf GTD 7th </span>
+              
+              <i class="fas fa-angle-right"></i>
+               
+              <span class="text--photo-card-date"> 야간드라이브 </span>
+              
+              <i class="fas fa-angle-right"></i>
+               
+              <span class="text--photo-card-date"> 황령산 </span>
+               
+            </span>
+            
+            
+
+
+<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a> <a class="text--category icon category-travel" href="/photo-app/categories/daily/travel/">travel</a> 
+
+
+<a class="text--tag icon tag-Golf GTD 7th" href="/photo-app/tags/Golf-GTD-7th/">#Golf GTD 7th</a> <a class="text--tag icon tag-야간드라이브" href="/photo-app/tags/야간드라이브/">#야간드라이브</a> <a class="text--tag icon tag-황령산" href="/photo-app/tags/황령산/">#황령산</a>
+
+
+          </span>
+        </span> -->
+      </a>
+      <!-- <div class="box--photo--info">
+        
+
+
+<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a> <a class="text--category icon category-travel" href="/photo-app/categories/daily/travel/">travel</a> 
+
+
+<a class="text--tag icon tag-Golf GTD 7th" href="/photo-app/tags/Golf-GTD-7th/">#Golf GTD 7th</a> <a class="text--tag icon tag-야간드라이브" href="/photo-app/tags/야간드라이브/">#야간드라이브</a> <a class="text--tag icon tag-황령산" href="/photo-app/tags/황령산/">#황령산</a>
+
+
+      </div> -->
+    </div>
+
+    <div class="box--post--info">
+      <p class="post--title"></p>
+      <p class="post--summary">
+
+황령산에 올라가면 광안리부터 서면까지 부산 야...</p>
+      <p class="post--date">2018-09-24</p>
+    </div>
+  </div>
 </div>
+ 
+ 
+    <div class="col-md-3 col-12 box--post--list">
+  <!-- <div class="hovereffect"> -->
+  <div class="box--photo-card">
+    <div class="box--link--photo">
+      <a class="link--photo" href="/photo-app/2018/09/23/2018-09-23/">
+        <span
+          class="image--thumb"
+          style="
+            background-image: url('/photo-app/2018/09/23/2018-09-23/./20180923_115944.jpg');
+          "
+        >
+        </span>
+        <!-- <span class="box--photo-card-info">
+          <span class="box--photo-card-title">
+            
+            <span class="text--photo-card-date"> dd </span>
+            
+            <span class="post_tag">
+              <i class="fa fa-tag"></i>
+              
+              <span class="text--photo-card-date"> Golf GTD 7th </span>
+              
+              <i class="fas fa-angle-right"></i>
+               
+              <span class="text--photo-card-date"> 기변 </span>
+               
+            </span>
+            
+            
+
+
+<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a> 
+
+
+<a class="text--tag icon tag-Golf GTD 7th" href="/photo-app/tags/Golf-GTD-7th/">#Golf GTD 7th</a> <a class="text--tag icon tag-기변" href="/photo-app/tags/기변/">#기변</a>
+
+
+          </span>
+        </span> -->
+      </a>
+      <!-- <div class="box--photo--info">
+        
+
+
+<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a> 
+
+
+<a class="text--tag icon tag-Golf GTD 7th" href="/photo-app/tags/Golf-GTD-7th/">#Golf GTD 7th</a> <a class="text--tag icon tag-기변" href="/photo-app/tags/기변/">#기변</a>
+
+
+      </div> -->
+    </div>
+
+    <div class="box--post--info">
+      <p class="post--title"></p>
+      <p class="post--summary">오늘은 기변을 하러 가는 날, 정말 많은 고민 끝...</p>
+      <p class="post--date">2018-09-23</p>
+    </div>
+  </div>
+</div>
+ 
+ 
+    <div class="col-md-3 col-12 box--post--list">
+  <!-- <div class="hovereffect"> -->
+  <div class="box--photo-card">
+    <div class="box--link--photo">
+      <a class="link--photo" href="/photo-app/2018/08/05/2018-08-05/">
+        <span
+          class="image--thumb"
+          style="
+            background-image: url('/photo-app/2018/08/05/2018-08-05/./20180805_161046.jpg');
+          "
+        >
+        </span>
+        <!-- <span class="box--photo-card-info">
+          <span class="box--photo-card-title">
+            
+            <span class="text--photo-card-date"> dd </span>
+            
+            <span class="post_tag">
+              <i class="fa fa-tag"></i>
+              
+              <span class="text--photo-card-date"> Golf GTD 6th </span>
+               
+            </span>
+            
+            
+
+
+<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a> 
+
+
+<a class="text--tag icon tag-Golf GTD 6th" href="/photo-app/tags/Golf-GTD-6th/">#Golf GTD 6th</a>
+
+
+          </span>
+        </span> -->
+      </a>
+      <!-- <div class="box--photo--info">
+        
+
+
+<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a> 
+
+
+<a class="text--tag icon tag-Golf GTD 6th" href="/photo-app/tags/Golf-GTD-6th/">#Golf GTD 6th</a>
+
+
+      </div> -->
+    </div>
+
+    <div class="box--post--info">
+      <p class="post--title"></p>
+      <p class="post--summary">올해 1월에 8만 키로대로 대려 왔는데 벌써 10...</p>
+      <p class="post--date">2018-08-05</p>
+    </div>
+  </div>
+</div>
+ 
+
+      </div>
+
+      <!-- Pagination -->
       
-      <nav class="page-nav">
-        <a class="extend prev" rel="prev" href="/photo-app/archives/page/3/">이전</a><a class="page-number" href="/photo-app/archives/">1</a><a class="page-number" href="/photo-app/archives/page/2/">2</a><a class="page-number" href="/photo-app/archives/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/photo-app/archives/page/5/">5</a><a class="page-number" href="/photo-app/archives/page/6/">6</a><span class="space">&hellip;</span><a class="page-number" href="/photo-app/archives/page/11/">11</a><a class="extend next" rel="next" href="/photo-app/archives/page/5/">다음</a>
-      </nav>
+      <div id="container--pagination">
+        <nav class="page-nav">
+          <!-- https://github.com/hexojs/hexo/blob/92b979f4a3fa8714aebd3d11c3295d466b870905/lib/plugins/helper/paginator.js -->
+          <a class="extend prev" rel="prev" href="/photo-app/archives/page/3/">이전</a><a class="page-number" href="/photo-app/archives/">1</a><a class="page-number" href="/photo-app/archives/page/2/">2</a><a class="page-number" href="/photo-app/archives/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/photo-app/archives/page/5/">5</a><a class="page-number" href="/photo-app/archives/page/6/">6</a><span class="space">&hellip;</span><a class="page-number" href="/photo-app/archives/page/8/">8</a><a class="extend next" rel="next" href="/photo-app/archives/page/5/">다음</a>
+        </nav>
+      </div>
       
+
+      <!-- Top Button -->
+      <a href="#" class="button--top">맨위로</a>
     </div>
 
     <!-- After footer scripts -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-<a href="#" class="button--top">맨위로</a>
   </body>
 </html>

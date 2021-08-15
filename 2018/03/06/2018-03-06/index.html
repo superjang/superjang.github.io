@@ -1,35 +1,56 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <!-- Head tag -->
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
 
   <!-- Title -->
   
   <title>2018 .3 .6 - Hexo</title>
 
   <!--Favicon-->
-  <link rel="icon" href="favicon/favicon.ico">
+  <link rel="icon" href="favicon/favicon.ico" />
 
   <!--Description-->
   
-      <meta name="description" content="폭스바겐 골프 7세대 다이캐스트 1:18 가 회사로 도착했다.원래는 1:43 비율의 6세대 모델을 찾고 있었는데 퀄리티가 좋은 모델을 찾기도 어렵고, 찾다보니 7세대가 있어서 바로 구매했다.7세대 3도어 GTI 모델, 진짜 차도 아닌데 설레이네…일은 잠시 접어두고 바로">
+  <meta
+    name="description"
+    content="폭스바겐 골프 7세대 다이캐스트 1:18 가 회사로 도착했다.원래는 1:43 비율의 6세대 모델을 찾고 있었는데 퀄리티가 좋은 모델을 찾기도 어렵고, 찾다보니 7세대가 있어서 바로 구매했다.7세대 3도어 GTI 모델, 진짜 차도 아닌데 설레이네…일은 잠시 접어두고 바로"
+  />
   
 
   <!--Author-->
   
-      <meta name="author" content="John Doe">
+  <meta name="author" content="John Doe" />
   
 
   <!-- Pure CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300,800" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300,800"
+    rel="stylesheet"
+  />
 
   <!-- Custom CSS -->
   
 <link rel="stylesheet" href="/photo-app/css/styles.css">
+
+
+  <!-- Custom JS -->
+  
+<script src="/photo-app/js/app.js"></script>
 
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -45,10 +66,11 @@
 
 
   <body>
-    <div class="container-fluid navbar-container m-sm-5">
+    <div id="view--post" class="view--root container-fluid m-sm-5">
       <!-- Header -->
-      <nav class="navbar navbar-toggleable-sm navbar-light px-1 py-3 my-3 mb-sm-5">
-  <a class="navbar-brand ml-2" href="/photo-app/">
+      <div id="container--header">
+        <nav id="box--navi" class="navbar navbar-toggleable-sm navbar-light">
+  <a class="link--title navbar-brand ml-2" href="/photo-app/">
     일상의기록
     
   </a>
@@ -56,7 +78,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   
-  <div class="collapse navbar-collapse text-center" id="navbarCollapse">
+  <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav ml-auto my-auto">
       
         <li class="nav-item">
@@ -96,28 +118,31 @@
         </li>
       
     </ul>
-    <hr class="hidden-md-up" />
   </div>
 </nav>
- 
-      <div class="row">
 
-<div class="col-lg-4 col-12 pt-3 px-4 pr-lg-5">
-  <div class="box--contents-header">
-    <h1>2018 .3 .6</h1>
-    
+      </div>
 
-<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a>
-<br/>
-    
+      <!-- Contents -->
+      <div id="container--contents" class="row">
+        
+
+
+<div class="box--post--header">
+  <h1>2018 .3 .6</h1>
+  <div class="box--cateogry--list">
+
+
+<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a></div>
+  <div class="box--tag--list">
 
 
 <a class="text--tag icon tag-Golf GTI 7th" href="/photo-app/tags/Golf-GTI-7th/">#Golf GTI 7th</a> <a class="text--tag icon tag-다이캐스트" href="/photo-app/tags/다이캐스트/">#다이캐스트</a>
 
-
-  </div>
 </div>
-<div class="col-lg-8 col-12 pt-lg-3 mb-4 pl-lg-5 px-lg-0 px-4 portfolio-content">
+</div>
+
+<div class="col-12 box--post--content portfolio-content">
   <p>폭스바겐 골프 7세대 다이캐스트 1:18 가 회사로 도착했다.<br>원래는 1:43 비율의 6세대 모델을 찾고 있었는데 퀄리티가 좋은 모델을 찾기도 어렵고, 찾다보니 7세대가 있어서 바로 구매했다.<br><img src="./20180306_150739.jpg"><br>7세대 3도어 GTI 모델, 진짜 차도 아닌데 설레이네…<br><img src="./20180306_150851.jpg"><br>일은 잠시 접어두고 바로 오픈, 이렇게만 보면 진짜 같다. 난 분명 6세대를 좋아하는데 7세대를 가지고 싶은 마음이 자꾸 생기네.. (바로 꺼내 볼랬는데 드라이버가 없으면 꺼내 볼 수 없어서 집으로 가져가서 열어보기로 함.)<br><img src="./20180306_220145.jpg"></p>
 <p class="media_desc">측면, 퀄리티가 꽤 좋다.</p>
 
@@ -134,15 +159,18 @@
  <p class="text--post-end">기록 끝.</p>
 </div>
 
-</div>
+      </div>
+
+      <!-- Pagination -->
       
+
+      <!-- Top Button -->
+      <a href="#" class="button--top">맨위로</a>
     </div>
 
     <!-- After footer scripts -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-<a href="#" class="button--top">맨위로</a>
   </body>
 </html>

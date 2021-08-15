@@ -1,38 +1,59 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <!-- Head tag -->
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
 
   <!-- Title -->
   
   <title>세차 Day - Hexo</title>
 
   <!--Favicon-->
-  <link rel="icon" href="favicon/favicon.ico">
+  <link rel="icon" href="favicon/favicon.ico" />
 
   <!--Description-->
   
-      <meta name="description" content="오늘은 세차를 하러 갑니다.자주 가시는 분들도 계시겠지만 한달에 한번도 잘 안하는 요즘입니다. 첫차인 6세대 GTD 탈때는 한달에 2번은 꼭 세차했던 것 같은데 이제는 차가 더러운게 눈으로 보여야 세차를 하네요. 😅
+  <meta
+    name="description"
+    content="오늘은 세차를 하러 갑니다.자주 가시는 분들도 계시겠지만 한달에 한번도 잘 안하는 요즘입니다. 첫차인 6세대 GTD 탈때는 한달에 2번은 꼭 세차했던 것 같은데 이제는 차가 더러운게 눈으로 보여야 세차를 하네요. 😅
 
 
-세차는 6세대 때부터 현금 사용이 가능한 동네 ">
+세차는 6세대 때부터 현금 사용이 가능한 동네 "
+  />
   
 
   <!--Author-->
   
-      <meta name="author" content="John Doe">
+  <meta name="author" content="John Doe" />
   
 
   <!-- Pure CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300,800" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300,800"
+    rel="stylesheet"
+  />
 
   <!-- Custom CSS -->
   
 <link rel="stylesheet" href="/photo-app/css/styles.css">
+
+
+  <!-- Custom JS -->
+  
+<script src="/photo-app/js/app.js"></script>
 
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -48,10 +69,11 @@
 
 
   <body>
-    <div class="container-fluid navbar-container m-sm-5">
+    <div id="view--post" class="view--root container-fluid m-sm-5">
       <!-- Header -->
-      <nav class="navbar navbar-toggleable-sm navbar-light px-1 py-3 my-3 mb-sm-5">
-  <a class="navbar-brand ml-2" href="/photo-app/">
+      <div id="container--header">
+        <nav id="box--navi" class="navbar navbar-toggleable-sm navbar-light">
+  <a class="link--title navbar-brand ml-2" href="/photo-app/">
     일상의기록
     
   </a>
@@ -59,7 +81,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   
-  <div class="collapse navbar-collapse text-center" id="navbarCollapse">
+  <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav ml-auto my-auto">
       
         <li class="nav-item">
@@ -99,32 +121,35 @@
         </li>
       
     </ul>
-    <hr class="hidden-md-up" />
   </div>
 </nav>
- 
-      <div class="row">
 
-<div class="col-12 mb-4">
+      </div>
+
+      <!-- Contents -->
+      <div id="container--contents" class="row">
+        
+
+<div class="box--post--thumb">
   <img class="img-fluid project-img" src="./img1.jpeg" alt="세차 Day">
 </div>
 
-<div class="col-lg-4 col-12 pt-3 px-4 pr-lg-5">
-  <div class="box--contents-header">
-    <h1>세차 Day</h1>
-    
 
-<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a>
-<br/>
-    
+<div class="box--post--header">
+  <h1>세차 Day</h1>
+  <div class="box--cateogry--list">
+
+
+<a class="text--category icon category-daily" href="/photo-app/categories/daily/">daily</a></div>
+  <div class="box--tag--list">
 
 
 <a class="text--tag icon tag-Golf GTD 7th" href="/photo-app/tags/Golf-GTD-7th/">#Golf GTD 7th</a> <a class="text--tag icon tag-세차" href="/photo-app/tags/세차/">#세차</a>
 
-
-  </div>
 </div>
-<div class="col-lg-8 col-12 pt-lg-3 mb-4 pl-lg-5 px-lg-0 px-4 portfolio-content">
+</div>
+
+<div class="col-12 box--post--content portfolio-content">
   <p>오늘은 세차를 하러 갑니다.<br>자주 가시는 분들도 계시겠지만 한달에 한번도 잘 안하는 요즘입니다. 첫차인 6세대 GTD 탈때는 한달에 2번은 꼭 세차했던 것 같은데 이제는 차가 더러운게 눈으로 보여야 세차를 하네요. 😅</p>
 <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3166.7568766367294!2d127.09558541576885!3d37.46646187981673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca749946f0da5%3A0xc938921740fed8ec!2z7JuM7Iuc7KG0IOqwleuCqOygkA!5e0!3m2!1sko!2skr!4v1607570407297!5m2!1sko!2skr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
@@ -134,19 +159,23 @@
 <li>세차기본요금 3,000원</li>
 <li>커피 2,200원</li>
 </ul>
-<p><img src="./img2.jpeg"><br><img src="./img3.jpeg"></p>
+<p><img src="./img2.jpeg"></p>
+<p><img src="./img3.jpeg"></p>
 <p class="text--post-end">기록 끝.</p>
 </div>
 
-</div>
+      </div>
+
+      <!-- Pagination -->
       
+
+      <!-- Top Button -->
+      <a href="#" class="button--top">맨위로</a>
     </div>
 
     <!-- After footer scripts -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-<a href="#" class="button--top">맨위로</a>
   </body>
 </html>
