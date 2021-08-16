@@ -621,7 +621,7 @@ blockquote:after {
   background-repeat: no-repeat;
 }
 #view--post #container--contents .box--post--header {
-    padding-bottom: 20px;
+
     margin-bottom: 20px;
   }
   
@@ -754,6 +754,10 @@ blockquote:after {
     display: block;
     text-overflow: ellipsis;
     overflow: hidden;
+  }
+
+  .view--root #container--contents .box--post--list {
+    margin-bottom: 2.5rem !important;
   }
 }
 @media (max-width: 575px) {
