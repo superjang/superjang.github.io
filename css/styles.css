@@ -669,6 +669,31 @@ blockquote:after {
   margin-top:50px;
 }
 
+.box--page {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+}
+.box--page .box--col {
+  flex: 0 1 50%;
+}
+
+.box--page .box--col.first {
+
+}
+.box--page .box--col.second {
+  margin: auto 0;
+  text-align: center;
+}
+
+.box--page .box--col.second p{
+  /*display: inline-block;*/
+  /*background: #000;*/
+  /*color: #fff;*/
+  /*padding: 5px 10px;*/
+
+}
+
 @media (min-width: 768px) {
   .container-fluid .box--post--list .box--post--info {
     padding: 0 15px;
@@ -758,6 +783,20 @@ blockquote:after {
 
   .view--root #container--contents .box--post--list {
     margin-bottom: 2.5rem !important;
+  }
+
+  .box--page {
+    flex-direction: column;
+  }
+  .box--page .box--col {
+    flex: 0 1 50%;
+  }
+
+  .box--page .box--col.first {
+    margin-bottom:5rem;
+  }
+  .box--page .box--col.second {
+    text-align: center;
   }
 }
 @media (max-width: 575px) {
