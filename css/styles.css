@@ -793,10 +793,11 @@ blockquote:after {
   }
 
   .box--page .box--col.first {
-    margin-bottom:5rem;
+
   }
   .box--page .box--col.second {
     text-align: center;
+    margin:5rem 0;
   }
 }
 @media (max-width: 575px) {
