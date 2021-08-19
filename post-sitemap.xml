@@ -9,16 +9,8 @@
 
 
     <url>
-        <loc>https://superjang.github.io/2021/08/19/%EC%BD%94%EC%B9%B4%EC%BD%9C%EB%9D%BC/</loc>
-        <lastmod>2021-08-19T14:27:11.784Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://superjang.github.io/2021/08/19/%EB%8F%99%EB%84%A4%EC%B9%B4%ED%8E%98/</loc>
-        <lastmod>2021-08-19T14:24:45.840Z</lastmod>
+        <lastmod>2021-08-19T14:46:36.164Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -26,7 +18,15 @@
 
     <url>
         <loc>https://superjang.github.io/2021/08/16/seoul-summer/</loc>
-        <lastmod>2021-08-18T16:49:44.193Z</lastmod>
+        <lastmod>2021-08-19T14:46:00.848Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://superjang.github.io/2021/08/19/%EC%BD%94%EC%B9%B4%EC%BD%9C%EB%9D%BC/</loc>
+        <lastmod>2021-08-19T14:43:54.162Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
