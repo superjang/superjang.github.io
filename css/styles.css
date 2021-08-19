@@ -846,9 +846,9 @@ blockquote:after {
   .box--media-layout img:last-child {
     margin-bottom:0;
   }
-  #container--contents br {
-    display: none;
-  }
+  /*#container--contents br {*/
+  /*  display: none;*/
+  /*}*/
 }
 @media (max-width: 575px) {
   .box--photo-card .text--photo-card-date {
