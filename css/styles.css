@@ -415,8 +415,17 @@ span {
   width: 100%;
 }
 
-.box--media-layout {
+.box--media-layout p {
+    margin: 0;
   /*margin: 10px 0;*/
+}
+
+.box--media-layout p img {
+    margin-bottom: 1rem !important;
+    /*display: block;*/
+}
+.box--media-layout br {
+    display: none;
 }
 .box--media-layout:after {
   content: "";
@@ -428,10 +437,10 @@ span {
   box-sizing: border-box;
   margin: 0;
 }
-.box--media-layout.col2 img:nth-child(1) {
+.box--media-layout.col2 img:nth-child(odd) {
   padding-right: 0.5rem;
 }
-.box--media-layout.col2 img:nth-child(2) {
+.box--media-layout.col2 img:nth-child(even) {
   padding-left: 0.5rem;
 }
 
