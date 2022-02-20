@@ -44,6 +44,8 @@ textarea:focus {
 .box--post--content {
   line-height: 2;
   color: #555;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 .box--post--content p {
 }
@@ -676,6 +678,7 @@ blockquote:after {
 }
 #view--post #container--contents .box--post--header {
   margin-bottom: 20px;
+  width: 100%;
 }
 
 #container--pagination {
@@ -818,7 +821,7 @@ blockquote:after {
   #view--post #container--contents,
   #view--category .container,
   #view--tag .container {
-    max-width: 1280px;
+    max-width: 1920px;
     margin: 0 auto;
   }
 }
