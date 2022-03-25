@@ -46,7 +46,9 @@ textarea:focus {
   color: #555;
   margin: 0 auto;
 }
-.box--post--content p {
+
+.box--post--content > p:first-child > img {
+  margin-top: 0;
 }
 
 .box--post--content a {
@@ -373,6 +375,7 @@ span {
   max-width: 100%;
   line-height: 1;
   max-height: 880px;
+  /* margin: 40px 0; */
   /* width: auto; */
 }
 .google-map {
