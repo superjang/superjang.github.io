@@ -510,7 +510,8 @@ blockquote:after {
 }
 
 .text--post-end {
-  text-align: right;
+  margin-top: 50px;
+  /* text-align: right; */
 }
 
 .text--index-title {
@@ -561,13 +562,19 @@ blockquote:after {
   margin: auto 0;
 }
 
-.view--root #container--contents .content--align--left {
+.view--root #container--contents .content--align--left,
+.view--root #container--contents .content--align--left .media_desc,
+.view--root #container--contents .content--align--left .text--post-end {
   text-align: left;
 }
-.view--root #container--contents .content--align--right {
+.view--root #container--contents .content--align--right,
+.view--root #container--contents .content--align--right .media_desc,
+.view--root #container--contents .content--align--right .text--post-end {
   text-align: right;
 }
-.view--root #container--contents .content--align--center {
+.view--root #container--contents .content--align--center,
+.view--root #container--contents .content--align--center .media_desc,
+.view--root #container--contents .content--align--center .text--post-end {
   text-align: center;
 }
 
