@@ -905,11 +905,12 @@ blockquote:after {
   }
 
   .view--root {
-    margin: 1.5rem auto !important;
+    margin: 0 auto 1.5rem !important;
   }
 
   .view--root #container--header {
     margin-bottom: 30px;
+    margin-top: 0;
   }
 
   .view--root #container--header #navbarCollapse {
