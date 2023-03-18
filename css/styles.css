@@ -864,6 +864,15 @@ blockquote:after {
     margin: 0 auto;
   }
 }
+
+@media (min-width: 703px) {
+  #view--post.container-fluid .row img {
+    max-height: 880px !important;
+    max-width: 100% !important;
+    width: auto !important;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 991px) {
   .box--post--list {
     padding: 0;
