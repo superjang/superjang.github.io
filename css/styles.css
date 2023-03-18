@@ -54,6 +54,7 @@ textarea:focus {
 
 .box--post--content > p {
   padding: 0 2rem 0px;
+  margin: 2rem 0;
 }
 
 .box--post--content a {
@@ -389,7 +390,7 @@ span {
 
 .box--post--content .media_desc {
   text-align: center;
-  margin: 2rem 0;
+  margin: 0.5rem 0 1rem;
   padding: 0 2rem 0px;
   font-size: 14px;
   color: #7f7f7f;
@@ -490,15 +491,21 @@ blockquote {
   color: #888;
   padding-left: 20px;
   position: relative;
-  line-height: 1.5;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: top;
+}
+blockquote p {
+  margin: 0;
+  line-height: 1.2;
 }
 blockquote:after {
   content: "";
   display: block;
   position: absolute;
   left: 0;
-  top: 4px;
-  bottom: 4px;
+  top: 0px;
+  bottom: 0px;
   width: 4px;
   background: #888;
 }
@@ -533,6 +540,7 @@ blockquote:after {
 
 #view--home #container--contents,
 #view--category #container--contents,
+#view--tag #container--contents,
 #view--default #container--contents {
   padding: 0 2rem;
 }
@@ -540,10 +548,8 @@ blockquote:after {
   line-height: 1;
   max-height: max-content;
   max-width: 1200px;
-  width: calc(100% + 4rem);
-  margin-left: -2rem;
-  /* margin: 40px 0; */
-  /* width: auto; */
+  width: 100%;
+  display: block;
 }
 #view--archive {
 }
@@ -870,7 +876,7 @@ blockquote:after {
     max-height: 880px !important;
     max-width: 100% !important;
     width: auto !important;
-    margin: 0 auto;
+    margin: 0 auto 0.5rem;
   }
 }
 @media (max-width: 991px) {
@@ -943,8 +949,6 @@ blockquote:after {
     flex: 0 1 50%;
   }
 
-  .box--page .box--col.first {
-  }
   .box--page .box--col.second {
     text-align: center;
     margin: 5rem 0;
