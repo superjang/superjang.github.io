@@ -2,9 +2,15 @@ window.onload = function () {
   const buttonTop = document.querySelector(".button--top");
   const originStyle = buttonTop.getAttribute("class");
 
-  window.addEventListener("scroll", function (e) {
+  function updateStyle() {
     const updateStyle =
-      window.scrollY === 0 ? `${originStyle} hide` : originStyle;
+      window.scrollY >= window.innerHeight / 3
+        ? originStyle.replace("hide", "")
+        : originStyle;
     buttonTop.setAttribute("class", updateStyle);
-  });
+  }
+
+  updateStyle();
+
+  window.addEventListener("scroll", updateStyle);
 };
