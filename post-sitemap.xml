@@ -9,8 +9,8 @@
 
 
     <url>
-        <loc>https://superjang.github.io/2021/08/19/%EC%BD%94%EC%B9%B4%EC%BD%9C%EB%9D%BC/</loc>
-        <lastmod>2023-03-18T13:42:23.502Z</lastmod>
+        <loc>https://superjang.github.io/2023/03/13/%EA%B2%A8%EC%9A%B8%EC%9D%98%20%EB%81%9D/</loc>
+        <lastmod>2023-03-18T13:51:07.940Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -18,7 +18,15 @@
 
     <url>
         <loc>https://superjang.github.io/2022/03/25/%ED%9E%98%EC%9D%B4%EB%93%A4%EB%95%90/</loc>
-        <lastmod>2023-03-18T13:41:18.567Z</lastmod>
+        <lastmod>2023-03-18T13:51:04.029Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://superjang.github.io/2021/08/19/%EC%BD%94%EC%B9%B4%EC%BD%9C%EB%9D%BC/</loc>
+        <lastmod>2023-03-18T13:42:23.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -35,14 +43,6 @@
     <url>
         <loc>https://superjang.github.io/2021/08/19/%EB%8F%99%EB%84%A4%EC%B9%B4%ED%8E%98/</loc>
         <lastmod>2023-03-18T13:25:42.913Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://superjang.github.io/2023/03/13/%EA%B2%A8%EC%9A%B8%EC%9D%98%20%EB%81%9D/</loc>
-        <lastmod>2023-03-18T13:20:33.111Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
