@@ -583,21 +583,22 @@ blockquote:after {
 }
 
 .view--root #container--contents .content--align--left,
-.view--root #container--contents .content--align--left .media_desc,
-.view--root #container--contents .content--align--left .text--post-end {
+.view--root #container--contents .content--align--left .media_desc {
   /* text-align: left; */
   text-align: center;
 }
 .view--root #container--contents .content--align--right,
-.view--root #container--contents .content--align--right .media_desc,
-.view--root #container--contents .content--align--right .text--post-end {
+.view--root #container--contents .content--align--right .media_desc {
   /* text-align: right; */
   text-align: center;
 }
 .view--root #container--contents .content--align--center,
-.view--root #container--contents .content--align--center .media_desc,
-.view--root #container--contents .content--align--center .text--post-end {
+.view--root #container--contents .content--align--center .media_desc {
   text-align: center;
+}
+
+.view--root #container--contents .content--align--left .text--post-end {
+  text-align: right;
 }
 
 /* #view--post #container--contents > div {
