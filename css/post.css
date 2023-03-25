@@ -1,15 +1,14 @@
 #view--post {
-  margin-bottom: 0;
 }
 
 /* CONTAINER */
 #view--post #container--contents {
-  padding: 0 1.5rem;
+  padding: 0 2rem;
 }
 
 /* HEADER */
 #view--post #container--contents .box--post--header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   width: 100%;
 }
 
@@ -28,6 +27,7 @@
 #view--post #container--contents .box--post--content {
   line-height: 2;
   color: #555;
+  margin-bottom: 100px;
 }
 
 #view--post #container--contents .box--post--content a {
