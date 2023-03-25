@@ -1,0 +1,105 @@
+#view--post {
+  margin-bottom: 0;
+}
+
+/* CONTAINER */
+#view--post #container--contents {
+  padding: 0 1.5rem;
+}
+
+/* HEADER */
+#view--post #container--contents .box--post--header {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+#view--post #container--contents .box--post--header p:last-child {
+  margin-bottom: 0;
+}
+#view--post #container--contents .box--post--header h1 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 1rem;
+  margin-bottom: 30px;
+}
+#view--post #container--contents .box--post--header p {
+}
+
+/* CONTENTS */
+#view--post #container--contents .box--post--content {
+}
+
+#view--post #container--contents .box--post--content a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #bbb;
+}
+#view--post #container--contents .box--post--content p {
+  padding: 0;
+  text-align: left;
+  word-break: break-all;
+}
+#view--post #container--contents .box--post--content .media_desc {
+  /* text-align: center; */
+}
+
+@media (max-width: 639px) {
+  #view--post #container--contents .box--post--content .media_desc {
+    text-align: center;
+  }
+  #view--post #container--contents .box--post--content p {
+    text-align: left;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+  #view--post {
+    /* background-color: orange !important; */
+  }
+}
+
+@media (min-width: 703px) and (max-width: 767px) {
+  #view--post {
+    /* background-color: yellow !important; */
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #view--post {
+    /* background-color: green !important; */
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+  #view--post {
+    /* background-color: blue !important; */
+  }
+}
+
+@media (max-width: 1023px) {
+  #view--post #container--contents .box--post--content img {
+  }
+}
+@media (min-width: 1024px) {
+  #view--post {
+    /* background-color: rgb(12, 12, 12) !important; */
+  }
+}
+
+/*  */
+
+@media (min-width: 640px) {
+  #view--post #container--contents .box--post--content p {
+    /* text-align: center; */
+  }
+  #view--post #container--contents .box--post--content img {
+    /* max-height: 680px !important;
+    max-width: 100% !important;
+    width: auto !important;
+    margin: 0 auto 0.5rem !important; */
+    width: auto !important;
+    max-width: 100% !important;
+    max-height: 680px !important;
+    margin-left: 0 !important;
+  }
+}

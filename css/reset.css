@@ -1,0 +1,8 @@
+.view--root {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.view--root #container--header #box--navi {
+  margin-top: 0 !important;
+}
