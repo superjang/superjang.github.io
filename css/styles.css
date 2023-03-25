@@ -611,14 +611,12 @@ blockquote:after {
 }
 
 .view--root #container--header #box--navi {
-  padding: 10px 0;
-  margin: 10px 0;
+  padding: 0;
 }
 
 .view--root #container--header {
-  margin-top: 2rem;
-  margin-bottom: 30px;
-  padding: 0 2rem;
+  margin: 2rem auto 30px;
+  padding: 0 1.5rem;
 }
 
 .view--root #container--header .link--title {
@@ -849,7 +847,7 @@ blockquote:after {
   }
 
   .view--root #container--header #box--navi {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 }
 
@@ -910,8 +908,8 @@ blockquote:after {
   }
 
   .view--root #container--header {
-    margin-bottom: 30px;
-    margin-top: 0;
+    /* margin-bottom: 30px;
+    margin-top: 0; */
   }
 
   .view--root #container--header #navbarCollapse {
@@ -921,7 +919,7 @@ blockquote:after {
   }
 
   .view--root #container--header #box--navi {
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
   }
 
   .view--root #container--header .custom-navbar {

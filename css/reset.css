@@ -3,8 +3,9 @@
   margin: 0 !important;
 }
 
-@media (min-width: 768px) {
-  .view--root #container--header #box--navi {
-    margin-top: 0 !important;
+@media (max-width: 767px) {
+  .view--root #container--header {
+    margin: 20px auto 30px;
+    padding: 0 1.5rem;
   }
 }
