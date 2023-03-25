@@ -592,7 +592,7 @@ blockquote:after {
 
 .view--root #container--header {
   margin: 2rem auto 30px;
-  padding: 0 1.5rem;
+  padding: 0 2rem;
 }
 
 .view--root #container--header .link--title {
@@ -979,6 +979,6 @@ blockquote:after {
 @media (max-width: 767px) {
   .view--root #container--header {
     margin: 20px auto 30px;
-    padding: 0 1.5rem;
+    padding: 0 2rem;
   }
 }
