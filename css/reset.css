@@ -3,6 +3,8 @@
   margin: 0 !important;
 }
 
-.view--root #container--header #box--navi {
-  margin-top: 0 !important;
+@media (min-width: 768px) {
+  .view--root #container--header #box--navi {
+    margin-top: 0 !important;
+  }
 }
