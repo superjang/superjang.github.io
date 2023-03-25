@@ -26,6 +26,8 @@
 
 /* CONTENTS */
 #view--post #container--contents .box--post--content {
+  line-height: 2;
+  color: #555;
 }
 
 #view--post #container--contents .box--post--content a {
@@ -35,21 +37,37 @@
 }
 #view--post #container--contents .box--post--content p {
   padding: 0;
+  margin: 2rem 0;
   text-align: left;
   word-break: break-all;
 }
-#view--post #container--contents .box--post--content .media_desc {
-  /* text-align: center; */
+#view--post #container--contents .box--post--content p:first-child {
+  margin-top: 0;
 }
 
-@media (max-width: 639px) {
-  #view--post #container--contents .box--post--content .media_desc {
-    text-align: center;
-  }
-  #view--post #container--contents .box--post--content p {
-    text-align: left;
-  }
+#view--post #container--contents .box--post--content .media_desc {
+  text-align: left;
+  margin: 0.5rem 0 2rem;
+  font-size: 14px;
+  color: #7f7f7f;
+  line-height: 1.6;
 }
+
+#view--post #container--contents .box--post--content img {
+  line-height: 1;
+  max-height: 880px;
+  max-width: 100%;
+  display: block;
+}
+/*
+  헤더 레이아웃 기준 
+    ~767
+    768~ 
+
+  컨텐츠 기준
+    ~639
+    640~
+*/
 
 @media (min-width: 640px) and (max-width: 767px) {
   #view--post {
@@ -86,17 +104,23 @@
   }
 }
 
-/*  */
-
-@media (min-width: 640px) {
+/* @layout BY POST CONTENTS */
+@media (max-width: 639px) {
   #view--post #container--contents .box--post--content p {
-    /* text-align: center; */
+    text-align: left;
+  }
+  #view--post #container--contents .box--post--content .media_desc {
+    text-align: center;
   }
   #view--post #container--contents .box--post--content img {
-    /* max-height: 680px !important;
-    max-width: 100% !important;
-    width: auto !important;
-    margin: 0 auto 0.5rem !important; */
+    max-height: max-content;
+    max-width: fit-content;
+    width: 100%;
+  }
+}
+
+@media (min-width: 640px) {
+  #view--post #container--contents .box--post--content img {
     width: auto !important;
     max-width: 100% !important;
     max-height: 680px !important;
